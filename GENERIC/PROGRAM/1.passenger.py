@@ -1,3 +1,4 @@
+#passenger.py
 no_of_passenger =int(input("Enter No of Passenger:"))
 while no_of_passenger!=0 :
     # print (no_of_passenger)
