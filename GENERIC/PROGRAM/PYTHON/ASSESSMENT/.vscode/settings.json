@@ -1,0 +1,16 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "infy_test",
+            "dialect": "MySQL",
+            "name": "Infy",
+            "password": "ali",
+            "port": 3306,
+            "server": "localhost",
+            "username": "ali"
+        }
+    ]
+}

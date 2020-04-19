@@ -1,0 +1,40 @@
+Apr 16 18:11:39.072 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 16 18:11:39.072 HYPERVISOR: Started on IP = localhost, TCP port = 52761.
+Apr 16 18:11:39.540 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 16 18:11:39.541 HYPERVISOR: exec_cmd: hypervisor working_dir D:\STUDY\INFY\GENERIC\PROGRAM\ROUTER\Ques1\project-files\dynamips 
+Apr 16 18:11:39.542 GENERAL: working_dir=D:\STUDY\INFY\GENERIC\PROGRAM\ROUTER\Ques1\project-files\dynamips
+Apr 16 18:11:39.543 HYPERVISOR: exec_cmd: hypervisor working_dir D:\STUDY\INFY\GENERIC\PROGRAM\ROUTER\Ques1\project-files\dynamips\fc00e6e9-61ad-4324-b129-b4e5afcb0fe5 
+Apr 16 18:11:39.543 GENERAL: working_dir=D:\STUDY\INFY\GENERIC\PROGRAM\ROUTER\Ques1\project-files\dynamips\fc00e6e9-61ad-4324-b129-b4e5afcb0fe5
+Apr 16 18:11:39.545 HYPERVISOR: exec_cmd: vm create PC4 4 c3725 
+Apr 16 18:11:39.548 VM: VM PC4 created.
+Apr 16 18:11:39.550 HYPERVISOR: exec_cmd: vm set_con_tcp_port PC4 5008 
+Apr 16 18:11:39.551 HYPERVISOR: exec_cmd: c3725 get_mac_addr PC4 
+Apr 16 18:11:39.553 HYPERVISOR: exec_cmd: vm set_disk0 PC4 0 
+Apr 16 18:11:39.554 HYPERVISOR: exec_cmd: vm set_exec_area PC4 64 
+Apr 16 18:11:39.556 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 18:11:39.557 HYPERVISOR: exec_cmd: vm set_idle_pc PC4 0x60c09aa0 
+Apr 16 18:11:39.562 HYPERVISOR: exec_cmd: vm set_ios PC4 C:/Users/starl/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Apr 16 18:11:39.563 HYPERVISOR: exec_cmd: c3725 set_mac_addr PC4 c204.1080.0000 
+Apr 16 18:11:39.565 HYPERVISOR: exec_cmd: vm set_nvram PC4 256 
+Apr 16 18:11:39.566 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 18:11:39.566 HYPERVISOR: exec_cmd: vm slot_add_binding PC4 1 0 NM-1FE-TX 
+Apr 16 18:11:39.568 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 18:11:39.568 HYPERVISOR: exec_cmd: vm slot_add_binding PC4 2 0 NM-4T 
+Apr 16 18:11:39.568 HYPERVISOR: exec_cmd: vm slot_add_binding PC4 0 16 WIC-1T 
+Apr 16 18:11:39.568 HYPERVISOR: exec_cmd: vm slot_add_binding PC4 0 32 WIC-2T 
+Apr 16 18:11:39.568 HYPERVISOR: exec_cmd: vm slot_add_binding PC4 0 48 WIC-2T 
+Apr 16 18:11:45.646 HYPERVISOR: exec_cmd: nio create_udp udp-f5018934-b7f1-4291-a072-ccf6b8c184e0 10030 127.0.0.1 10031 
+Apr 16 18:11:45.893 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PC4 0 0 udp-f5018934-b7f1-4291-a072-ccf6b8c184e0 
+Apr 16 18:11:45.894 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 21:30:06.552 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 21:30:07.447 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 21:30:07.447 HYPERVISOR: exec_cmd: vm extract_config PC4 
+Apr 16 22:04:55.020 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 22:04:55.022 HYPERVISOR: exec_cmd: vm extract_config PC4 
+Apr 16 22:04:55.698 HYPERVISOR: exec_cmd: vm get_status PC4 
+Apr 16 22:04:55.699 HYPERVISOR: exec_cmd: vm extract_config PC4 
+Apr 16 22:04:55.700 HYPERVISOR: exec_cmd: vm delete PC4 
+Apr 16 22:04:55.730 VM: VM PC4 destroyed.
+Apr 16 22:04:55.768 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 16 22:04:55.966 HYPERVISOR: Stopped.
+Apr 16 22:04:55.966 GENERAL: reset done.
